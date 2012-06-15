@@ -10,7 +10,7 @@ namespace CODODN.Web.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to kick-start your ASP.NET MVC application.";
+            ViewBag.Message = "This is the new Central Ohio Day of .NET website.";
 
             return View();
         }
