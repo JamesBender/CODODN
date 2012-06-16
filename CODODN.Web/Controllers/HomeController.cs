@@ -9,9 +9,7 @@ namespace CODODN.Web.Controllers
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
-            ViewBag.Message = "This is the new Central Ohio Day of .NET website.";
-
+        {            
             return View();
         }
 

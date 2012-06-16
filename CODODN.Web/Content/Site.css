@@ -1,4 +1,8 @@
-﻿html {
+﻿img.tileImage {
+    margin-right: 40px;
+}
+
+html {
     background-color: #e2e2e2;
     margin: 0;
     padding: 0;
@@ -106,7 +110,7 @@ h5, h6 {
     }
 
     .featured + .main-content {
-        background: url("../Images/heroAccent.png") no-repeat;
+       /*background: url("../Images/heroAccent.png") no-repeat;*/
     }
 
 footer {
@@ -209,7 +213,7 @@ ul#menu {
         background-image: -webkit-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
         background-image: linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
         color: #3e5667;
-        padding: 20px 40px 30px 40px;
+        padding: 20px 30px 30px 60px;
     }
 
         .featured hgroup.title h1, .featured hgroup.title h2 {
